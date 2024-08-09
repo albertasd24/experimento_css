@@ -179,7 +179,6 @@ main {
 }
 
 .cast__container {
-  border: 1px solid greenyellow;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -189,7 +188,6 @@ main {
 }
 
 .cast__member {
-  border: 1px solid red;
   width: 100%;
   background-color: #ffffff70;
   border-radius: 10px;
@@ -327,7 +325,6 @@ main {
     height: 100vh;
   }
   .episodes__container {
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
