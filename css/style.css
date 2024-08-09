@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +17,15 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 main {
-  background: linear-gradient(
-    100deg,
-    rgba(8, 17, 61, 0.925),
-    rgb(13, 73, 141),
-    rgba(8, 17, 61, 0.925)
-  );
+  background: linear-gradient(100deg,
+      rgba(8, 17, 61, 0.925),
+      rgb(13, 73, 141),
+      rgba(8, 17, 61, 0.925));
   width: 100%;
 }
+
 .welcome {
   position: relative;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(15, 26, 77, 0.89)),
@@ -53,22 +54,27 @@ main {
   transform: translateX(-50%);
   font-size: 1.8rem;
 }
+
 .content {
   text-align: center;
 }
+
 .content img {
   max-width: 100%;
   height: auto;
 }
+
 .content h1 {
   font-size: 3em;
   margin: 20px 0;
   color: #f87c1e;
 }
+
 .content p {
   font-size: 1.2em;
   color: #333;
 }
+
 .content a {
   display: inline-block;
   padding: 10px 20px;
@@ -79,6 +85,7 @@ main {
   border-radius: 5px;
   font-weight: bold;
 }
+
 .promocional {
   display: flex;
   justify-content: space-evenly;
@@ -97,9 +104,11 @@ main {
   border-radius: 15px;
   transition: 0.5s ease-in-out;
 }
+
 .promocional__trailer:hover {
   transform: scale(1.05);
 }
+
 .promocional__info {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -110,14 +119,17 @@ main {
   padding: 10px 15px;
   border-radius: 10px;
 }
+
 .promocional__info p {
   text-align: justify;
   color: #fff;
 }
+
 .promocional__info h2 {
   color: #fff;
   font-size: 2.5rem;
 }
+
 .container__circles {
   display: flex;
   justify-content: center;
@@ -125,12 +137,14 @@ main {
   justify-content: space-between;
   margin-top: 10px;
 }
+
 .circle {
   background-color: #fff;
   width: 25px;
   height: 25px;
   border-radius: 50%;
 }
+
 /* eEpISODES */
 .episodes__container {
   width: 100%;
@@ -140,16 +154,19 @@ main {
   padding: 10px;
   gap: 20px;
 }
+
 .episodes h2 {
   color: #fff;
   font-size: 2.5rem;
   text-align: center;
 }
+
 .card {
   width: 100%;
   height: 250px;
   transition: 0.2s ease-in-out;
 }
+
 .card__image {
   width: 100%;
   height: 85%;
@@ -158,14 +175,18 @@ main {
   background-color: #462f2fc7;
   transition: 0.2s ease-in-out;
 }
+
 .card__image:hover {
   background-color: #f3f3f3c7;
+  cursor: pointer;
 }
+
 .card__title {
   color: #fff;
   text-align: center;
   font-weight: 600;
 }
+
 /* ELENCO */
 .cast {
   width: 100%;
@@ -193,6 +214,7 @@ main {
   padding: 10px;
   text-align: center;
 }
+
 .cast__member img {
   width: 150px;
   height: 150px;
@@ -200,12 +222,14 @@ main {
   border-radius: 50%;
   border: 3px solid rgb(255, 255, 255);
 }
+
 .cast__member h4 {
   color: #1a16d8;
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
   font-size: 1.8rem;
 }
+
 .cast__member h5 {
   color: rgb(16, 104, 236);
   text-shadow: 0 1px 5px rgba(255, 255, 255, 0.897);
@@ -270,8 +294,7 @@ main {
 }
 
 /* Estilos para iPads, tabletas (481px - 768px) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
+@media screen and (min-width: 481px) and (max-width: 768px) {}
 
 /* Estilos para pantallas pequeñas, laptops (769px - 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -296,6 +319,7 @@ main {
     width: 100%;
     height: 100vh;
   }
+
   .title {
     color: #fff;
     position: absolute;
@@ -315,6 +339,7 @@ main {
     transform: translateX(-50%);
     font-size: 2.5rem;
   }
+
   .promocional {
     display: flex;
     justify-content: space-evenly;
@@ -323,6 +348,7 @@ main {
     width: 100%;
     height: 100vh;
   }
+
   .episodes__container {
     display: flex;
     flex-wrap: wrap;
@@ -331,16 +357,19 @@ main {
     padding: 10px;
     gap: 10px;
   }
+
   .episodes h2 {
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
   }
+
   .card {
     width: 18%;
     height: 50%;
     transition: 0.2s ease-in-out;
   }
+
   .card__image {
     width: 100%;
     height: 85%;
@@ -349,14 +378,17 @@ main {
     background-color: #462f2fc7;
     transition: 0.2s ease-in-out;
   }
+
   .card__image:hover {
     background-color: #f3f3f3c7;
   }
+
   .card__title {
     color: #fff;
     text-align: center;
     font-weight: 600;
   }
+
   /* ELENCO */
   .cast h2 {
     color: #fff;
@@ -380,6 +412,7 @@ main {
     padding: 10px;
     text-align: center;
   }
+
   .cast__member img {
     width: 150px;
     height: 150px;
@@ -387,14 +420,17 @@ main {
     border-radius: 50%;
     border: 3px solid rgb(255, 255, 255);
   }
+
   .cast__member h4 {
     /* color: #ffffff; */
     color: #1a16d8;
     /* text-shadow: 0 1px 5px rgba(63, 63, 63, 0.897); */
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
-      -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255); /* Para compatibilidad adicional */
+      -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    /* Para compatibilidad adicional */
     font-size: 1.8rem;
   }
+
   .cast__member h5 {
     color: rgb(16, 104, 236);
     text-shadow: 0 1px 5px rgba(255, 255, 255, 0.897);
@@ -411,6 +447,7 @@ main {
     width: 100%;
     height: 100vh;
   }
+
   .title {
     color: #fff;
     position: absolute;
@@ -430,6 +467,7 @@ main {
     transform: translateX(-50%);
     font-size: 2.5rem;
   }
+
   .promocional {
     display: flex;
     justify-content: space-evenly;
@@ -438,6 +476,7 @@ main {
     width: 100%;
     height: 100vh;
   }
+
   .promocional__trailer {
     width: 50%;
     height: 60%;
@@ -445,27 +484,35 @@ main {
     border-radius: 15px;
     transition: 0.5s ease-in-out;
   }
+
   .promocional__trailer:hover {
     transform: scale(1.05);
   }
+
   .promocional__info {
     width: 40%;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde semitransparente */
-    background: rgba(255, 255, 255, 0.15); /* Fondo semitransparente */
-    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Borde semitransparente */
+    background: rgba(255, 255, 255, 0.15);
+    /* Fondo semitransparente */
+    backdrop-filter: blur(10px);
+    /* Desenfoque del fondo */
     box-shadow: 0 8px 32px 0 rgba(81, 89, 206, 0.568);
     backdrop-filter: blur(15px);
     padding: 10px 15px;
     border-radius: 10px;
   }
+
   .promocional__info p {
     text-align: justify;
     color: #fff;
   }
+
   .promocional__info h2 {
     color: #fff;
     font-size: 2.5rem;
   }
+
   .episodes__container {
     display: flex;
     flex-wrap: wrap;
@@ -474,16 +521,19 @@ main {
     padding: 10px;
     gap: 10px;
   }
+
   .episodes h2 {
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
   }
+
   .card {
     width: 18%;
     height: 50%;
     transition: 0.2s ease-in-out;
   }
+
   .card__image {
     width: 100%;
     height: 280px;
@@ -492,14 +542,17 @@ main {
     background-color: #462f2fc7;
     transition: 0.2s ease-in-out;
   }
+
   .card__image:hover {
     background-color: #f3f3f3c7;
   }
+
   .card__title {
     color: #fff;
     text-align: center;
     font-weight: 600;
   }
+
   /* ELENCO */
   .cast h2 {
     color: #fff;
@@ -523,6 +576,7 @@ main {
     padding: 10px;
     text-align: center;
   }
+
   .cast__member img {
     width: 150px;
     height: 150px;
@@ -530,14 +584,17 @@ main {
     border-radius: 50%;
     border: 3px solid rgb(255, 255, 255);
   }
+
   .cast__member h4 {
     /* color: #ffffff; */
     color: #1a16d8;
     /* text-shadow: 0 1px 5px rgba(63, 63, 63, 0.897); */
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
-      -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255); /* Para compatibilidad adicional */
+      -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    /* Para compatibilidad adicional */
     font-size: 1.8rem;
   }
+
   .cast__member h5 {
     color: rgb(16, 104, 236);
     text-shadow: 0 1px 5px rgba(255, 255, 255, 0.897);
